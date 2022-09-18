@@ -7,4 +7,18 @@
     <color name="teal_700">#FF018786</color>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+
+    <!-- our colors -->
+    <color name="background">#001f4f</color>
+    <color name="button">#0041c4</color>
+    <color name="button_simpan">#b6d7a8</color>
+    <color name="button_kembali">#f9cb9c</color>
+    <color name="button_menu">#f3f1ed</color>
+    <color name="input">#f6f7f9</color>
+    <color name="text_button">#f6f8fd</color>
+    <color name="text_header">#001f4f</color>
+    <color name="text_normal">#8791a3</color>
+    <color name="text_menu_title">#fdfeff</color>
+    <color name="text_link">#0545c5</color>
+    <color name="text_input">#171725</color>
 </resources>
