@@ -80,5 +80,9 @@ public class AddExpenseActivity extends AppCompatActivity {
 
         DatabaseHelper dbHelper = new DatabaseHelper(AddExpenseActivity.this);
         dbHelper.addFinance(date, nominal, description, category);
+
+        binding.etTanggalPengeluaran.setText("");
+        binding.etNominalPengeluaran.setText("");
+        binding.etKeteranganPengeluaran.setText("");
     }
 }

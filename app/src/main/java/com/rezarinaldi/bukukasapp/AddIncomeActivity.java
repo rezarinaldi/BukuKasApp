@@ -81,5 +81,9 @@ public class AddIncomeActivity extends AppCompatActivity {
 
         DatabaseHelper dbHelper = new DatabaseHelper(AddIncomeActivity.this);
         dbHelper.addFinance(date, nominal, description, cateogry);
+
+        binding.etTanggalPemasukan.setText("");
+        binding.etNominalPemasukan.setText("");
+        binding.etKeteranganPemasukan.setText("");
     }
 }
